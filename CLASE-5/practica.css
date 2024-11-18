@@ -1,0 +1,39 @@
+#general{
+    background-color: brown;
+    border: solid;
+    margin: 0%;
+    padding: 20px;
+}
+#clases{
+    background-color: aqua;
+    border: solido;
+    margin: 10px;
+    padding: 20px;
+    float: left;
+
+
+}
+
+#resultado{
+    background-color:blue;
+    border: solido;
+    margin: 10px;
+    padding: 20px;
+    float:;
+
+    
+
+
+}
+#imagenes{
+    background-color:blueviolet;
+    border: solido;
+    margin: 10px;
+    padding: 20px;
+    float: right;
+    
+}
+.contenedro{
+    
+
+}

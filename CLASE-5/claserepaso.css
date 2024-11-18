@@ -1,0 +1,91 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: fantasy;
+    background: linear-gradient(135deg, #5b855e, #291a1a);
+    color: rgb(26, 22, 50);
+    text-align: center;
+}
+
+/* Estilos para el título principal */
+h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px #542d06;
+    padding: 20px;
+}
+
+/* Estilos para el subtítulo */
+h2 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 15px;
+}
+
+/* Estilos para los párrafos */
+p {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Estilos para las imágenes */
+img {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px 0;
+    border: 5px solid #004d00;
+}
+
+/* Estilos para la lista ordenada */
+ol {
+    text-align: left;
+    font-size: 1.5em;
+    margin: 20px auto;
+    padding: 0;
+    max-width: 80%;
+}
+
+/* Estilos para los elementos de la lista */
+li {
+    font-size: 1.3em;
+    margin: 10px 0;
+    padding: 5px;
+    list-style-position: inside;
+}
+
+/* Estilos para el fondo de los elementos de la lista */
+li:nth-child(odd) {
+    background-color: rgba(2, 53, 11, 0.5);
+}
+
+li:nth-child(even) {
+    background-color: rgba(8, 78, 8, 0.7);
+}
+
+/* Estilo para íconos Font Awesome */
+/*.fas {
+    font-size: 1.3em; /* Ajusta el tamaño del ícono al tamaño de la fuente del título */
+   /* color: #00ff00; /* Puedes cambiar el color del ícono */
+
+
+/* Estilo específico para íconos de imágenes */
+/*#icono {
+    width: 1.3em; /* Ajusta el tamaño del ícono de la imagen */
+    /*height: 1.3em; /* Ajusta el tamaño del ícono de la imagen */
+
+
+/* Estilo para contenedor de íconos y títulos */
+/*.icon-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.3em; /* Ajusta el tamaño del texto del título */
+    /*padding: 10px 20px;/*
+}
+
+/* Estilo para el título dentro del contenedor */
+/*.icon-title span {
+    margin-left: 10px;
+}/*
