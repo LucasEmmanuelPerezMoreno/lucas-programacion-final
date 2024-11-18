@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f11818;
+}
+.box {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #eaf51e;
+    background-color: #13cd4e;
+    text-align: center;
+    line-height: 60px;
+    box-sizing: border-box;
+    background-image: url('5\ -\ Automotivación.png'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el div */
+    background-position: center; /* Centra la imagen */
+}
+
+header, footer {
+    background-color: #f74949;
+    color: rgb(253, 25, 227);
+    text-align: center;
+    padding: 20px; /* Espacio interior de 20px */
+}
+
+main {
+    padding: 20px; /* Espacio interior de 20px */
+}
+
+.post {
+    margin: 20px 0; /* Espacio exterior de 20px arriba y abajo */
+    padding: 15px; /* Espacio interior de 15px */
+    border: 1px solid #2c5e31; /* Borde sólido de 1px */
+    background-color: #0a707f;
+}
+
+.post h2 {
+    margin-top: 0; /* Sin margen superior */
+}
+
+footer p {
+    margin: 0; /* Sin margen */
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background: steelblue;
+    width: 200px;
+}
+
+.item {
+    background: grey;
+    width: 50%;
+}

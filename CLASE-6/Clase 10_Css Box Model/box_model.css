@@ -1,0 +1,98 @@
+body {
+    font-family: cursive, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color:#be2b06;
+    text-align: justify;
+}
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #346528;
+    color: white;
+    text-align:right;
+    padding: 1em;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1em;
+    padding: 2em;
+    flex: 1;
+    background-color: #f4f4f4;
+}
+
+.text-section, .form-section {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.features {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    font-family: fantasy; 
+    font-size: 50;
+    background-color:#be2b06 #45aa31;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 3px;
+}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5em;
+    border-color: rgb(210, 250, 237);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border-color: aquamarine;
+}
+
+label {
+    margin-top: 0.5em;
+    font-family: monospace;
+    font-size: 75;
+}
+
+input {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,34 @@
+TP _Clase 10 
+1) Ejemplo Básico (Tipo Escuela)
+Paso 1: Crear la Estructura HTML
+Crea un archivo HTML con la estructura básica y dale un nombre con la extensión adecuada.
+Paso 2: Crear el archivo Css
+* Crea un archivo Css con la estructura básica y dale un nombre con la extensión adecuada.
+* En el archivo creado, realiza las siguientes acciones:
+o Dentro de la clase box, añade margin para definir el espacio exterior del elemento.
+o Dentro de la clase box añade padding para definir el espacio interior del elemento.
+o Dentro de la clase box añade border para definir el borde del elemento.
+o Dentro de la clase box añade box-sizing para incluir padding y borde en el tamaño total del elemento.
+2) Ejemplo Tipo Blog
+Paso 1: Crear la Estructura HTML
+Crea un archivo HTML con la estructura básica y dale un nombre con la extensión adecuada.
+Paso 2: Crear el archivo Css
+* Crea un archivo Css con la estructura básica y dale un nombre con la extensión adecuada.
+* En el archivo creado, realiza las siguientes acciones:
+o Crear un archivo css, darle un nombre.
+o dentro de la clase .post, añade margin para definir el espacio exterior del elemento.
+o Dentro de la clase .post, añade padding para definir el espacio interior del elemento.
+o Dentro de la clase .post, añade border para definir el borde del elemento.
+o dentro de la clase .post, añade box-sizing para incluir padding y borde en el tamaño total del elemento.
+3) Ejemplo Tipo Información (Página Compleja)
+Paso 1: Crear la Estructura HTML
+Crea un archivo HTML con la estructura básica y dale un nombre con la extensión adecuada.
+Paso 2: Crear el archivo Css
+* Crea un archivo Css con la estructura básica y dale un nombre con la extensión adecuada.
+* En el archivo creado, realiza las siguientes acciones:
+o Crear un archivo css, darle un nombre, por ejemplo styles.css
+o Dentro de la clase .info, añade margin para definir el espacio exterior del elemento.
+o Dentro de la clase .sidebar, añade flex para ajustar el tamaño del elemento.
+o Dentro de la clase .info y .sidebar, añade box-sizing para incluir padding y borde en el tamaño total del elemento.
+
+

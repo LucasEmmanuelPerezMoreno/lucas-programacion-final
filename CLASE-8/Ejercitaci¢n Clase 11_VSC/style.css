@@ -1,0 +1,66 @@
+/*Estilos globales*/
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: blanchedalmond;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+header {
+    text-align: left;
+    background-color: rgb(48, 133, 48);
+    color: white;
+    padding: 20px;
+}
+h1{
+    margin-bottom: 10 px;
+}
+main{
+    margin: 20px 0;
+}
+/*estilos para la introducción*/
+.intro {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.intro h2{
+    margin-bottom: 10px;
+}
+.h3{
+    text-align: center;
+}
+/*estilos a la cuadrícula*/
+.content-grid{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+/*estilos para las columnas*/
+.column{
+    background-color: rgb(119, 117, 125);
+    border: 1px solid #f5e3e3;
+    padding: 20px;
+    text-align: center;
+}
+.img{
+    background-color: aquamarine;
+    border:lch(from color l c h);
+    padding:20 px ;
+    
+
+}
+footer{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
