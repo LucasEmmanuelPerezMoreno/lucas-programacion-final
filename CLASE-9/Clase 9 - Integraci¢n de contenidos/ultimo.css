@@ -1,0 +1,43 @@
+@keyframes moveShapes {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(50px); }
+    100% { transform: translateY(0); }
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #41828f;
+    font-family: monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+}
+
+.shape {
+    background-color: orange;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 10px;
+    animation: moveShapes 2s infinite alternate;
+    transition: background-color 0.3s;
+}
+
+.shape:hover {
+    background-color: red;
+}

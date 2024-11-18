@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #71f0e7;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    height: 50vh;
+    margin-bottom: 20px;
+    border: 2px solid red;
+    padding: 10px;
+    display: flex;
+}
+
+.line, .square {
+    position: absolute;
+    background-color: blue;
+    animation: moveRandom 5s infinite ease-in-out, colorChange 5s infinite ease-in-out;
+}
+
+.line {
+    width: 100%;
+    height: 4px;
+    border: 2px solid black;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+.image-colum {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 300px; 
+    overflow: hidden;
+}
+
+.moving-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    position: absolute;
+    animation: moveImageRandom 10s infinite alternate ease-in-out;
+}
+
+/* Animaciones individuales para cada imagen */
+@keyframes moveImageRandom {
+    0% { transform: translate(0, 0); }
+    20% { transform: translate(30px, 20px); }
+    40% { transform: translate(-20px, 60px); }
+    60% { transform: translate(40px, -40px); }
+    80% { transform: translate(-30px, 30px); }
+    100% { transform: translate(0, 0); }
+}
+
+.text {
+    text-align: center;
+    color: antiquewhite;
+    margin: 20px;
+    border: 2px solid purple;
+    padding: 10px;
+}

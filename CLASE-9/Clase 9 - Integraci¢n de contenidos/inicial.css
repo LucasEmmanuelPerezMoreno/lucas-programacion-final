@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #e6a9e2, #702828);
+  color: white;
+  text-align: center;
+}
+
+/* Estilos para el título principal */
+h1 {
+  font-size: 3em;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 20px;
+}
+
+/* Estilos para el subtítulo */
+h2 {
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 15px;
+}
+
+/* Estilos para los párrafos */
+p {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+/* Estilos para las imágenes */
+img {
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  margin: 20px 0;
+  border: 5px solid #004d00;
+}
+
+.basic-level {
+    color: rgb(255, 0, 0);
+  }
+  
+  .basic-level:hover {
+    color: rgb(96, 30, 177);
+  }
+  
+  .basic-level:active {
+    color: green;
+  }
+
+  

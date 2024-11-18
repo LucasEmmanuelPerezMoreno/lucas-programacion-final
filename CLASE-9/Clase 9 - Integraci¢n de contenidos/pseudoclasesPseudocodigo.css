@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5f5af8;
+    overflow: hidden;
+}
+.h1{
+    text-align: center;
+    color:antiquewhite;
+    text-size-adjust: center;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    height: 80%;
+
+}
+.container{
+    border-image-width: center;
+    mask-image:none;
+}
+
+.line, .square {
+    position: absolute;
+    background-color: blue;
+    animation: moveRandom 5s infinite ease-in-out, colorChange 5s infinite ease-in-out;
+}
+
+.line {
+    width: 100%;
+    height: 4px;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes moveRandom {
+    0% { top: 0; left: 0; }
+    25% { top: 0; left: 80%; }
+    50% { top: 80%; left: 80%; }
+    75% { top: 80%; left: 0; }
+    100% { top: 0; left: 0; }
+}
+
+@keyframes colorChange {
+    0% { background-color: blue; }
+    25% { background-color: red; }
+    50% { background-color: green; }
+    75% { background-color: yellow; }
+    100% { background-color: blue; }
+}

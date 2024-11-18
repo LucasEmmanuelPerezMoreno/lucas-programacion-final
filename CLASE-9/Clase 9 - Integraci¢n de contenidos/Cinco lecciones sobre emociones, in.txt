@@ -1,0 +1,58 @@
+Cinco lecciones sobre emociones, inteligencia emocional y cómo ser adulto que nos enseñan las películas de Intensamente
+Keith Brooks The Yass Prize
+https://www.forbesargentina.com/liderazgo/cinco-lecciones-sobre-emociones-inteligencia-emocional-como-ser-adulto-nos-ensenan-peliculas-intensamente-n55372
+Al analizar la mente humana, las películas de Pixar nos convierten en expertos emocionales, cultivando una mayor autoconciencia, autogestión, empatía e interacciones sociales que contribuyen a un mundo más inteligente emocionalmente.
+02 Julio de 2024 18.20
+Recientemente, llevé a mis hijos a ver Intensamente 2. Después de la película, cuando les pregunté qué les había parecido, me devolvieron otra pregunta: "¿Qué aprendiste?". Y ahí hice un click.
+
+Con frecuencia, nos centramos en el aprendizaje socioemocional de los niños, pero somos los adultos los que necesitamos aprender a manejar nuestras emociones. 
+
+Bajo la apariencia de entretenimiento infantil, las películas de Pixar Intensamente 1 y 2 nos llevan a un viaje por la psique humana que no es sólo para niños, sino que sirve de modelo para convertirnos en mejores profesores, padres, cuidadores y entrenador
+
+Dominar nuestras emociones es una necesidad mundial
+
+En todo el mundo, se presta especial atención al aprendizaje socioemocional de niños y adolescentes. Pero, ¿qué pasa con los adultos? Según la Universidad Johns Hopkins, se calcula que 1 de cada 4 adultos sufre cada año un trastorno mental diagnosticable. Las investigaciones de The National Library of Medicine y WebMd sugieren que la salud mental y emocional están simbióticamente relacionadas. 
+
+En las organizaciones The Noble Story Group y The National Fellowship For Black and Latino Male Educators (NFBLME), utilizamos la inteligencia emocional para comprender mejor la relación entre nuestra mente y nuestras emociones con el fin de crear las condiciones para prosperar. 
+
+En NFBLME, los participantes reciben un Exec Coach certificado y formado en coaching emocionalmente inteligente, formación en Inteligencia Emocional Consciente, una evaluación pre-post Inventario de Competencia Social Emocional 360 (ESCI) y terapia gratuita a través de BetterHelp.
+
+Entendiendo la Inteligencia Emocional 
+
+La IE, introducida por Peter Salovey y John Mayer, popularizada por Daniel Goleman en su libro Emotional Intelligence: Why It Can Matter More Than IQ, la IE tiene cuatro dominios:
+
+- Autoconciencia: reconocer y comprender nuestras propias emociones. (Saber cuándo estás a punto de perder los nervios por una media perdida).
+
+- Autogestión: controlar nuestras emociones. (No volverte loco cuando se cuelga Internet en la mitad de una videollamada).
+
+- Conciencia social: comprender y apreciar las emociones de los demás. (Averiguar por qué tu amigo está llorando por un video de un gato).
+
+- Gestión de las relaciones: conectar con los demás de forma significativa y plantearles desafíos productivos. (No dejar plantada a la gente porque estás de mal humor).
+
+A medida que el personaje Riley de Pixar crece, nuevas emociones aparecen en su mente para ayudarnos a analizar conceptos clave de la Inteligencia Emocional. 
+
+El libro de Matt Taylor, The Noble School Leader, ofrece un marco útil para liderar y vivir con más IE, ayudando a nuestra comprensión de las experiencias de Riley.
+
+Lecciones de Intensamente para adultos
+
+Fomentá las habilidades de alfabetización emocional: estas habilidades ayudan a una mejor regulación emocional y a unas relaciones más sanas, disminuyendo los conflictos y los malentendidos. Imaginá un mundo en el que todos expresen sus sentimientos de forma saludable: menos drama y más armonía.
+
+Difundí la empatía: las emociones, incluida la empatía, son contagiosas. Empatizar con el viaje de Riley puede desarrollar nuestra capacidad de empatía en nuestras vidas. La gente herida lastima a otros, y las personas enteras transmiten tranquilidad. Una sociedad más empática conduce a interacciones más compasivas, a comunidades más fuertes y a la inclusión.
+Fomentar la concienciación sobre la salud mental: hablar de emociones normaliza las conversaciones sobre salud mental, reduciendo el estigma y animando a las personas a buscar ayuda cuando la necesitan, fomentando el apoyo y la comprensión.
+
+Abrazar la diversidad emocional: incluso las emociones desagradables tienen valor. La inteligencia emocional no consiste en la felicidad constante, sino en lograr un equilibrio armonioso entre todas las emociones.
+
+Autodescubrimiento y bienestar: el viaje hacia un mundo mejor puede ser interno. Deberíamos centrarnos en arreglar el mundo desde dentro, empezando por nosotros mismos. Para cambiar el mundo, parate frente al espejo, no mirando a los demás.
+
+Intensamente no es sólo una película para niños; es una exploración de la inteligencia emocional que celebra la experiencia emocional humana, ofreciendo lecciones de IE profundas y prácticas. Nos ayuda a conectar con lo que nos hace humanos: nuestros sentimientos. 
+
+Al seguir analizando el escenario de las emociones humanas, ambas películas nos convierten en expertos emocionales, cultivando una mayor autoconciencia, autogestión, empatía e interacciones sociales que contribuyen a un mundo más inteligente emocionalmente.
+
+Así que la próxima vez que sientas algo, acordate de Riley y su cabeza. Abrazá tu alegría interior, reconocé tu tristeza y navegá por tu escenario emocional como un personaje de Pixar. Comprender nuestras emociones es el primer paso hacia una vida más plena.
+
+TAREA
+1-Completar en el 3_ultimo.css todas las características que se enumenan en la National
+2- Referenciar el artículo con su enlace externo
+3- Descubrir la causa por la que nos se muestran los títulos
+4- Cambiar el estilo de letra y los colores
+5- Dudas o sugerencias, se comunican por Telegram.

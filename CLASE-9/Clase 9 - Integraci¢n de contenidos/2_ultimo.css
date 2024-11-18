@@ -1,0 +1,44 @@
+@keyframes moveShapes {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(50px); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes colorChange {
+    0% { background-color: orange; }
+    33% { background-color: red; }
+    66% { background-color: blue; }
+    100% { background-color: orange; }
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+}
+
+.shape {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 10px;
+    animation: moveShapes 2s infinite alternate, colorChange 4s infinite;
+    transition: background-color 0.3s;
+}

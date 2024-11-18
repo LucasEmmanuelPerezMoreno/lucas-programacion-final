@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Contenedor principal */
+.main-container {
+    background-color: #f0f0f0; /* Fondo de la sección */
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+/* Fila de elementos */
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box; /* Asegura que padding no afecte el tamaño del contenedor */
+}
+
+.item {
+    flex: 1; /* Los elementos ocuparán el mismo espacio disponible */
+    margin: 0 10px; /* Espacio horizontal entre los ítems */
+    padding: 20px;
+    background-color: #ddd; /* Fondo de cada ítem de texto */
+    border: 2px solid #bbb; /* Borde de cada ítem de texto */
+    border-radius: 8px;
+    text-align: center; /* Centra el texto dentro del ítem */
+    box-sizing: border-box; /* Asegura que padding y border no afecten el tamaño del elemento */
+}
+
+/* Fila de imágenes */
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box; /* Asegura que padding no afecte el tamaño del contenedor */
+    
+}
+
+.image-row img {
+    flex: 1; /* Las imágenes ocuparán el mismo espacio disponible */
+    margin: 0 10px; /* Espacio horizontal entre las imágenes */
+    padding: 10px; /* Espacio interno alrededor de la imagen */
+    box-sizing: border-box; /* Asegura que padding y border no afecten el tamaño del elemento */
+    width: 100%; /* Las imágenes ocuparán el ancho completo del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border: 2px solid #bbb; /* Borde de las imágenes */
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+#ingreso-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Media Queries para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+    .row {
+        flex-direction: column; /* Cambia la dirección de los elementos a vertical en pantallas pequeñas */
+        align-items: center; /* Centra los elementos */
+    }
+
+    .item, .image-row img {
+        width: 100%; /* Los elementos ocuparán el ancho completo en pantallas pequeñas */
+        margin: 10px 0; /* Espacio vertical entre los elementos */
+    }
+}

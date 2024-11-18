@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #085018;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    height: 50vh; /* Ajusta según tus necesidades */
+    margin-bottom: 20px;
+    border: 2px solid red; /* Borde para ver el contenedor */
+    padding: 10px; /* Relleno dentro del contenedor */
+    display: flex;
+}
+
+.line, .square {
+    position: absolute;
+    background-color: blue;
+    animation: moveRandom 5s infinite ease-in-out, colorChange 5s infinite ease-in-out;
+}
+
+.line {
+    width: 100%;
+    height: 4px;
+    border: 2px solid black; /* Borde para ver la línea */
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black; /* Borde para ver el cuadrado */
+}
+
+.main-container {
+    width: 100%;
+    height: 300px; /* Ajusta la altura según sea necesario */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 20px; /* Espacio entre contenedor de imagen y texto */
+    border: 2px solid blue; /* Borde para ver el contenedor de la imagen */
+    padding: 10px; /* Relleno dentro del contenedor de la imagen */
+}
+
+.image-row {
+    width: 200px; /* Ajusta el tamaño según sea necesario */
+    height: 200px; /* Asegúrate de que todas las imágenes tengan la misma altura */
+    border: 2px solid green; /* Borde para ver el contenedor de la imagen */
+    padding: 10px; /* Relleno dentro del contenedor de la imagen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: moveRandom 5s infinite ease-in-out, colorChange 5s infinite ease-in-out;
+}
+.image-colum {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+}
+
+.moving-image {
+    width: 80px; /* Tamaño reducido de la imagen */
+    height: 80px; /* Tamaño reducido de la imagen */
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+    animation: moveImage 10s infinite linear;
+    border-image: space;
+    background-image: linear-gradient();
+    border: 2px solid rgb(49, 10, 201);
+
+}
+
+
+.text {
+    text-align: center;
+    color: antiquewhite;
+    margin: 20px;
+    border: 2px solid purple; /* Borde para ver el contenedor de texto */
+    padding: 10px; /* Relleno dentro del contenedor de texto */
+}
+
+@keyframes moveRandom {
+    0% { top: 0; left: 0; }
+    25% { top: 0; left: 80%; }
+    50% { top: 80%; left: 80%; }
+    75% { top: 80%; left: 0; }
+    100% { top: 0; left: 0; }
+}
+
+@keyframes colorChange {
+    0% { background-color: blue; }
+    25% { background-color: red; }
+    50% { background-color: green; }
+    75% { background-color: yellow; }
+    100% { background-color: blue; }
+}
+
+@keyframes moveImage {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+}
