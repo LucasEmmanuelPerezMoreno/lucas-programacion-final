@@ -1,4 +1,4 @@
-const form =document.querySelector('form');
+const form =document.querySelector('form');//traeme la informacion del formulario
 const h2=document.querySelector('h2');
 //promot
 form.addEventListener('submit', function(event){
