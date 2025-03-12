@@ -60,20 +60,20 @@ const productosTecnologia=[
 
 //contenedor
 
-const container =document.querySelector('.container');
+const container =document.querySelector('.container');//selecciona el contenedor
 
-for(producto of productosTecnologia ){
+for(producto of productosTecnologia ){//itera o junta los elemento del productotecnologia
     //creamos una card por cada producto del array productosTecnologicos(son5)
-    const div= document.createElement('div');
-    div.classList.add('card');
+    const div= document.createElement('div');//creea el elemento div
+    div.classList.add('card');//añade la clase card al elemento
 
 //titulos para cada card
-const title=document.createElement('h2')
-title.textContent=producto['nombre'].toUpperCase()
+const title=document.createElement('h2')//crea el titulo 
+title.textContent=producto['nombre'].toUpperCase()//toupperCase pone el nombre en mayuscula
 div.append(title)
 console.log (`Nombre:${producto ['nombre'].toUpperCase()}`)
 
-delete producto['nombre' ]
+delete producto['nombre'.toUpperCase()
 
     for(keysProducto in producto){
         const p =document.createElement('p')
